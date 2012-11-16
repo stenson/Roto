@@ -16,6 +16,7 @@
 		986C1C351656248300BDA5D1 /* ADKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 986C1C341656248300BDA5D1 /* ADKViewController.m */; };
 		986C1C381656248300BDA5D1 /* ADKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986C1C361656248300BDA5D1 /* ADKViewController_iPhone.xib */; };
 		986C1C3B1656248300BDA5D1 /* ADKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986C1C391656248300BDA5D1 /* ADKViewController_iPad.xib */; };
+		986C1C42165624F100BDA5D1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986C1C41165624F100BDA5D1 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		986C1C211656248300BDA5D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		986C1C231656248300BDA5D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		986C1C251656248300BDA5D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		986C1C291656248300BDA5D1 /* Roto-Info.plist */ = {isa = PBXFileReference; path = "Roto-Info.plist"; sourceTree = "<group>"; };
+		986C1C291656248300BDA5D1 /* Roto-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roto-Info.plist"; sourceTree = "<group>"; };
 		986C1C2B1656248300BDA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		986C1C2D1656248300BDA5D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		986C1C2F1656248300BDA5D1 /* Roto-Prefix.pch */ = {isa = PBXFileReference; path = "Roto-Prefix.pch"; sourceTree = "<group>"; };
-		986C1C301656248300BDA5D1 /* ADKAppDelegate.h */ = {isa = PBXFileReference; path = ADKAppDelegate.h; sourceTree = "<group>"; };
+		986C1C2F1656248300BDA5D1 /* Roto-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Roto-Prefix.pch"; sourceTree = "<group>"; };
+		986C1C301656248300BDA5D1 /* ADKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADKAppDelegate.h; sourceTree = "<group>"; };
 		986C1C311656248300BDA5D1 /* ADKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADKAppDelegate.m; sourceTree = "<group>"; };
-		986C1C331656248300BDA5D1 /* ADKViewController.h */ = {isa = PBXFileReference; path = ADKViewController.h; sourceTree = "<group>"; };
+		986C1C331656248300BDA5D1 /* ADKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ADKViewController.h; sourceTree = "<group>"; };
 		986C1C341656248300BDA5D1 /* ADKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADKViewController.m; sourceTree = "<group>"; };
 		986C1C371656248300BDA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADKViewController_iPhone.xib; sourceTree = "<group>"; };
 		986C1C3A1656248300BDA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADKViewController_iPad.xib; sourceTree = "<group>"; };
+		986C1C41165624F100BDA5D1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986C1C42165624F100BDA5D1 /* QuartzCore.framework in Frameworks */,
 				986C1C221656248300BDA5D1 /* UIKit.framework in Frameworks */,
 				986C1C241656248300BDA5D1 /* Foundation.framework in Frameworks */,
 				986C1C261656248300BDA5D1 /* CoreGraphics.framework in Frameworks */,
@@ -52,6 +55,7 @@
 		986C1C121656248300BDA5D1 = {
 			isa = PBXGroup;
 			children = (
+				986C1C41165624F100BDA5D1 /* QuartzCore.framework */,
 				986C1C271656248300BDA5D1 /* Roto */,
 				986C1C201656248300BDA5D1 /* Frameworks */,
 				986C1C1E1656248300BDA5D1 /* Products */,
