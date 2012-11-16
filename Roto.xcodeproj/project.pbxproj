@@ -17,6 +17,8 @@
 		986C1C381656248300BDA5D1 /* ADKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986C1C361656248300BDA5D1 /* ADKViewController_iPhone.xib */; };
 		986C1C3B1656248300BDA5D1 /* ADKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986C1C391656248300BDA5D1 /* ADKViewController_iPad.xib */; };
 		986C1C42165624F100BDA5D1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986C1C41165624F100BDA5D1 /* QuartzCore.framework */; };
+		986C1C49165628BE00BDA5D1 /* ADKAudioGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = 986C1C48165628BE00BDA5D1 /* ADKAudioGraph.m */; };
+		986C1C4B165628D200BDA5D1 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986C1C4A165628D200BDA5D1 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,9 @@
 		986C1C371656248300BDA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADKViewController_iPhone.xib; sourceTree = "<group>"; };
 		986C1C3A1656248300BDA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADKViewController_iPad.xib; sourceTree = "<group>"; };
 		986C1C41165624F100BDA5D1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		986C1C47165628BE00BDA5D1 /* ADKAudioGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADKAudioGraph.h; sourceTree = "<group>"; };
+		986C1C48165628BE00BDA5D1 /* ADKAudioGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADKAudioGraph.m; sourceTree = "<group>"; };
+		986C1C4A165628D200BDA5D1 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				986C1C4B165628D200BDA5D1 /* AudioToolbox.framework in Frameworks */,
 				986C1C42165624F100BDA5D1 /* QuartzCore.framework in Frameworks */,
 				986C1C221656248300BDA5D1 /* UIKit.framework in Frameworks */,
 				986C1C241656248300BDA5D1 /* Foundation.framework in Frameworks */,
@@ -55,6 +61,7 @@
 		986C1C121656248300BDA5D1 = {
 			isa = PBXGroup;
 			children = (
+				986C1C4A165628D200BDA5D1 /* AudioToolbox.framework */,
 				986C1C41165624F100BDA5D1 /* QuartzCore.framework */,
 				986C1C271656248300BDA5D1 /* Roto */,
 				986C1C201656248300BDA5D1 /* Frameworks */,
@@ -89,6 +96,8 @@
 				986C1C341656248300BDA5D1 /* ADKViewController.m */,
 				986C1C361656248300BDA5D1 /* ADKViewController_iPhone.xib */,
 				986C1C391656248300BDA5D1 /* ADKViewController_iPad.xib */,
+				986C1C47165628BE00BDA5D1 /* ADKAudioGraph.h */,
+				986C1C48165628BE00BDA5D1 /* ADKAudioGraph.m */,
 				986C1C281656248300BDA5D1 /* Supporting Files */,
 			);
 			path = Roto;
@@ -172,6 +181,7 @@
 				986C1C2E1656248300BDA5D1 /* main.m in Sources */,
 				986C1C321656248300BDA5D1 /* ADKAppDelegate.m in Sources */,
 				986C1C351656248300BDA5D1 /* ADKViewController.m in Sources */,
+				986C1C49165628BE00BDA5D1 /* ADKAudioGraph.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

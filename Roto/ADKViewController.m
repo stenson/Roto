@@ -8,7 +8,8 @@
 
 #import "ADKViewController.h"
 
-#define DEGREES(x) (M_PI * (x) / 180.0)
+#define RADIANS_FROM_DEGREES(x) (M_PI * (x) / 180.0)
+#define DEGREES_FROM_RADIANS(x) ((180.0 / M_PI) * (x))
 
 @interface LPCircleView : UIView
 @end
@@ -32,7 +33,7 @@
     
     [[UIColor orangeColor] set];
     CGContextTranslateCTM(context, rect.size.width/2, rect.size.height/2);
-    CGContextRotateCTM(context, DEGREES(45));
+    CGContextRotateCTM(context, RADIANS_FROM_DEGREES(45));
     CGContextTranslateCTM(context, -rect.size.width/2, -rect.size.height/2);
     CGContextFillRect(context, CGRectMake(0, rect.size.height/2 - 4,
                                           rect.size.width, 8));
@@ -74,6 +75,11 @@
     
     _circle.transform = CGAffineTransformRotate(_circle.transform, operableDiff*(2.*M_PI));
     
+    CGFloat angle = DEGREES_FROM_RADIANS(atan2(_circle.transform.b, _circle.transform.a));
+    if ((int)floorf(angle)%45 == 0) {
+        NSLog(@"CLICK");
+    }
+    
     CGFloat contentHeight = self.contentSize.height;
     CGFloat centerOffsetY = (contentHeight - self.bounds.size.height) / 2.0;
     CGFloat verticalDistanceFromCenter = fabs(currentYOffset - centerOffsetY);
@@ -102,6 +108,7 @@
 @interface ADKViewController () <UIScrollViewDelegate> {
     LPInfiniteScrollView *_scroll;
     LPCircleView *_circle;
+    ADKAudioGraph *_audio;
 }
 
 @end
@@ -139,6 +146,9 @@
     [self.view addSubview:_scroll];
     [self.view addSubview:_circle];
     //\[self.view.layer addSublayer:playhead];
+    
+    _audio = [[ADKAudioGraph alloc] init];
+    [_audio power];
 }
 
 - (void)viewDidUnload
