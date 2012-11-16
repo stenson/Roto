@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		986C1C221656248300BDA5D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986C1C211656248300BDA5D1 /* UIKit.framework */; };
+		986C1C241656248300BDA5D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986C1C231656248300BDA5D1 /* Foundation.framework */; };
+		986C1C261656248300BDA5D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 986C1C251656248300BDA5D1 /* CoreGraphics.framework */; };
+		986C1C2C1656248300BDA5D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 986C1C2A1656248300BDA5D1 /* InfoPlist.strings */; };
+		986C1C2E1656248300BDA5D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 986C1C2D1656248300BDA5D1 /* main.m */; };
+		986C1C321656248300BDA5D1 /* ADKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 986C1C311656248300BDA5D1 /* ADKAppDelegate.m */; };
+		986C1C351656248300BDA5D1 /* ADKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 986C1C341656248300BDA5D1 /* ADKViewController.m */; };
+		986C1C381656248300BDA5D1 /* ADKViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986C1C361656248300BDA5D1 /* ADKViewController_iPhone.xib */; };
+		986C1C3B1656248300BDA5D1 /* ADKViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 986C1C391656248300BDA5D1 /* ADKViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		986C1C1D1656248300BDA5D1 /* Roto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		986C1C211656248300BDA5D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		986C1C231656248300BDA5D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		986C1C251656248300BDA5D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		986C1C291656248300BDA5D1 /* Roto-Info.plist */ = {isa = PBXFileReference; path = "Roto-Info.plist"; sourceTree = "<group>"; };
+		986C1C2B1656248300BDA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		986C1C2D1656248300BDA5D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		986C1C2F1656248300BDA5D1 /* Roto-Prefix.pch */ = {isa = PBXFileReference; path = "Roto-Prefix.pch"; sourceTree = "<group>"; };
+		986C1C301656248300BDA5D1 /* ADKAppDelegate.h */ = {isa = PBXFileReference; path = ADKAppDelegate.h; sourceTree = "<group>"; };
+		986C1C311656248300BDA5D1 /* ADKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADKAppDelegate.m; sourceTree = "<group>"; };
+		986C1C331656248300BDA5D1 /* ADKViewController.h */ = {isa = PBXFileReference; path = ADKViewController.h; sourceTree = "<group>"; };
+		986C1C341656248300BDA5D1 /* ADKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADKViewController.m; sourceTree = "<group>"; };
+		986C1C371656248300BDA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADKViewController_iPhone.xib; sourceTree = "<group>"; };
+		986C1C3A1656248300BDA5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ADKViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		986C1C1A1656248300BDA5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986C1C221656248300BDA5D1 /* UIKit.framework in Frameworks */,
+				986C1C241656248300BDA5D1 /* Foundation.framework in Frameworks */,
+				986C1C261656248300BDA5D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		986C1C121656248300BDA5D1 = {
+			isa = PBXGroup;
+			children = (
+				986C1C271656248300BDA5D1 /* Roto */,
+				986C1C201656248300BDA5D1 /* Frameworks */,
+				986C1C1E1656248300BDA5D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		986C1C1E1656248300BDA5D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				986C1C1D1656248300BDA5D1 /* Roto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		986C1C201656248300BDA5D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				986C1C211656248300BDA5D1 /* UIKit.framework */,
+				986C1C231656248300BDA5D1 /* Foundation.framework */,
+				986C1C251656248300BDA5D1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		986C1C271656248300BDA5D1 /* Roto */ = {
+			isa = PBXGroup;
+			children = (
+				986C1C301656248300BDA5D1 /* ADKAppDelegate.h */,
+				986C1C311656248300BDA5D1 /* ADKAppDelegate.m */,
+				986C1C331656248300BDA5D1 /* ADKViewController.h */,
+				986C1C341656248300BDA5D1 /* ADKViewController.m */,
+				986C1C361656248300BDA5D1 /* ADKViewController_iPhone.xib */,
+				986C1C391656248300BDA5D1 /* ADKViewController_iPad.xib */,
+				986C1C281656248300BDA5D1 /* Supporting Files */,
+			);
+			path = Roto;
+			sourceTree = "<group>";
+		};
+		986C1C281656248300BDA5D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				986C1C291656248300BDA5D1 /* Roto-Info.plist */,
+				986C1C2A1656248300BDA5D1 /* InfoPlist.strings */,
+				986C1C2D1656248300BDA5D1 /* main.m */,
+				986C1C2F1656248300BDA5D1 /* Roto-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		986C1C1C1656248300BDA5D1 /* Roto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 986C1C3E1656248300BDA5D1 /* Build configuration list for PBXNativeTarget "Roto" */;
+			buildPhases = (
+				986C1C191656248300BDA5D1 /* Sources */,
+				986C1C1A1656248300BDA5D1 /* Frameworks */,
+				986C1C1B1656248300BDA5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Roto;
+			productName = Roto;
+			productReference = 986C1C1D1656248300BDA5D1 /* Roto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		986C1C141656248300BDA5D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ADK;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 986C1C171656248300BDA5D1 /* Build configuration list for PBXProject "Roto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 986C1C121656248300BDA5D1;
+			productRefGroup = 986C1C1E1656248300BDA5D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				986C1C1C1656248300BDA5D1 /* Roto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		986C1C1B1656248300BDA5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986C1C2C1656248300BDA5D1 /* InfoPlist.strings in Resources */,
+				986C1C381656248300BDA5D1 /* ADKViewController_iPhone.xib in Resources */,
+				986C1C3B1656248300BDA5D1 /* ADKViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		986C1C191656248300BDA5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				986C1C2E1656248300BDA5D1 /* main.m in Sources */,
+				986C1C321656248300BDA5D1 /* ADKAppDelegate.m in Sources */,
+				986C1C351656248300BDA5D1 /* ADKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		986C1C2A1656248300BDA5D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				986C1C2B1656248300BDA5D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		986C1C361656248300BDA5D1 /* ADKViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				986C1C371656248300BDA5D1 /* en */,
+			);
+			name = ADKViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		986C1C391656248300BDA5D1 /* ADKViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				986C1C3A1656248300BDA5D1 /* en */,
+			);
+			name = ADKViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		986C1C3C1656248300BDA5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		986C1C3D1656248300BDA5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		986C1C3F1656248300BDA5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roto/Roto-Prefix.pch";
+				INFOPLIST_FILE = "Roto/Roto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		986C1C401656248300BDA5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Roto/Roto-Prefix.pch";
+				INFOPLIST_FILE = "Roto/Roto-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		986C1C171656248300BDA5D1 /* Build configuration list for PBXProject "Roto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986C1C3C1656248300BDA5D1 /* Debug */,
+				986C1C3D1656248300BDA5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		986C1C3E1656248300BDA5D1 /* Build configuration list for PBXNativeTarget "Roto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				986C1C3F1656248300BDA5D1 /* Debug */,
+				986C1C401656248300BDA5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 986C1C141656248300BDA5D1 /* Project object */;
+}
